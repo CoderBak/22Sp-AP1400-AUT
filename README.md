@@ -80,3 +80,9 @@ int main() {
 
 踩的坑：1. operator= 里面没用清空 this 2. 多态析构 3. 深度复制
 
+
+Homework 6
+
+1。 注意function 的适配问题
+
+the math-function can be a pointer to function, lambda function or a functor
