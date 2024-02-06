@@ -1,6 +1,11 @@
 # 22Sp-AP1400-AUT
 Amirkabir University of Technology 1400-2: Advanced Programming Course
 
+homework 2 头文件的相互包含处理
+
+client.h server.h
+
+
 homework 5 多态的析构函数
 
 在你的析构函数中，使用 delete i 尝试释放 side_items 中的指针是一个合理的尝试，但问题可能出现在你添加了副产品时。原因在于 side_items 是一个存储指向 Ingredient 对象的指针的 std::vector，而在你的复制构造函数和赋值操作符中，并没有进行深拷贝（deep copy）操作。
