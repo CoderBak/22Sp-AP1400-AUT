@@ -89,4 +89,4 @@ the math-function can be a pointer to function, lambda function or a functor
 
 2. 正则表达式的使用
 
-Homework 4 借助 template 实现智能指针
+Homework 4 借助 template 实现智能指针 同时实现一个 if (ptr) 的效果
