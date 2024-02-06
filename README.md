@@ -86,3 +86,5 @@ Homework 6
 1。 注意function 的适配问题
 
 the math-function can be a pointer to function, lambda function or a functor
+
+2. 正则表达式的使用
