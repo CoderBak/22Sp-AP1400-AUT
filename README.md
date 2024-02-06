@@ -5,6 +5,8 @@ homework 2 头文件的相互包含处理
 
 client.h server.h
 
+同时：如何访问一个类的 private 对象？
+
 
 homework 5 多态的析构函数
 
